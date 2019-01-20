@@ -1,5 +1,6 @@
 // Installation
 //    gcc -O3 strobe.c -o strobe
+//    g++ -o c_gpio c.c
 // Speed:
 //    14 MHz
 //    22 MHz gcc -O3 strobe.c -o strobe
