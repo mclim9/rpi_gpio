@@ -1,7 +1,12 @@
 Benchmarking Raspberry Pi
-=============================================
+========================================================================
 
-http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/
+Description
+------------------------------
+    - Code from: http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/
+    - Various methods to toggle Raspberry Pi GPIO.  
+    - Shows speed of each method.
+    - Installation instructions added to each code snippet
 
 |Language   | Library          |  Tested    | Version| Speed   |
 |-----------|------------------|------------|--------|---------|
