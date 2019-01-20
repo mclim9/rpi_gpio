@@ -5,9 +5,8 @@
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
-
 GPIO.setup(4, GPIO.OUT)
 
-while True:
+for x in range(100000):
     GPIO.output(4, True)
     GPIO.output(4, False)

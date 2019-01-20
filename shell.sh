@@ -1,6 +1,8 @@
 #!/bin/sh
-#Shell script
-#Speed 2.9kHz
+# Shell script
+#     sudo sh shell.sh
+#
+# Speed 2.9kHz
 
 echo "4" > /sys/class/gpio/export
 echo "out" > /sys/class/gpio/gpio4/direction

@@ -1,4 +1,6 @@
 #!/bin/sh
+# Installation:
+#     sudo sh shell_wiringPi.sh
 # Speed: 40Hz
 gpio mode 7 out
 
