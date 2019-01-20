@@ -1,0 +1,13 @@
+# Installation:
+#     - sudo apt-get install ruby-dev
+#     - sudo gem install wiringpi
+# Speed: 21kHz
+
+require 'wiringpi'
+
+io = WiringPi::GPIO.new
+
+while true do
+        io.write(7,0)
+        io.write(7,1)
+end
