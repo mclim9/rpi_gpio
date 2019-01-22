@@ -20,7 +20,7 @@ Description
 |C          | wiringPi         | 2015-02-15 | 2.25   | 4.6 MHz |
 |Perl       | BCM 2835         | 2015-02-15 | 1.9    |  48 kHz |
 
-                |RPi 3 Model A+     |RPi 3 B+	        |RPi Zero WH	    |RPi Zero W	        |RPi 3	            |RPi Zero	        |RPi 2	            |RPi A+	            |RPi B              |
+|               |RPi 3 Model A+     |RPi 3 B+	        |RPi Zero WH	    |RPi Zero W	        |RPi 3	            |RPi Zero	        |RPi 2	            |RPi A+	            |RPi B              |
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
 |Release date	|2018 Nov 15        |2018 Mar 14	    |2018 Jan 12	    |2017 Feb 28	    |2016 Feb 29	    |2015 Nov 30	    |2015 Feb 1	        |2014 Nov 10	    |2012 Feb 15        |
 |Price	        |US$25.00	        |US$35.00	        |US$15.00	        |US$10.00	        |US$35.00	        |US$5.00	        |US$35.00	        |US$20.00	        |US$35.00           |
