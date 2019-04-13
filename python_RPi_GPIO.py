@@ -1,6 +1,7 @@
 # pip install RPi.GPIO
 # https://pypi.org/project/RPi.GPIO/
 # RPi3B Py2:322kHz Py3:254kHz
+# RPi0  Py2- 91kHz Py3: 67kHz
 
 import RPi.GPIO as GPIO
 import datetime
