@@ -1,7 +1,7 @@
 # WiringPi
 #   https://github.com/WiringPi
 #   https://github.com/WiringPi/WiringPi-Python
-# RPi3B: 143kHz
+# RPi3B: Py2-143kHz Py3-105kHz
 
 import wiringpi2
 import datetime
