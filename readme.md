@@ -31,22 +31,22 @@ Description
 |CPU Clock	    |1.4 GHz	        |1.4 GHz	        |1 GHz	            |1 GHz	            |1.2 GHz	        |1 GHz	            |900 MHz	        |700 MHz	        |700 MHz            |
 |RAM	        |512 MB DDR2	    |1 GB DDR2	        |512 MB	            |512 MB	            |1 GB DDR2	        |512 MB	            |1 GB	            |256 MB	            |512 MB             |
 |USB Ports	    |1xUSB 2.0	        |4xUSB 2.0	        |micro OTG	        |micro OTG	        | 4	                |micro OTG	        | 4	                | 1	                |2x USB 2.0         |
-|Ethernet	    |No	                |Gigabit(USB 2.0)	|No	                |No	                |10/100M	        |No	                |10/100M	        |No	                |Yes                |
-|SATA Ports	    |No	                |No	                |No	                |No	                |No	                |No	                |No	                |No	                |No                 |
-|HDMI port	    |Yes	            |Yes	            |Yes mini	        |Yes mini	        | Yes               |Yes mini	        | Yes               | Yes               |Yes                |
-|Analog Video Out|On Audio Jack	    |On Audio Jack	    |Yes(unpop pin)	    |Yes(unpop pin)	    |On Audio Jack	    |Yes(unpop pin)	    |On Audio Jack	    |On Audio Jack	    |Yes Composite video|
-|Analog Audio Out|3.5mm	            |3.5mm	            |HDMI audio	        |HDMI audio	        |3.5mm	            |HDMI audio	        |3.5mm	            |3.5mm	            |3.5mm              |
-|Analog Audio In|No	                |No	                |No	                |No	                |No	                |No	                |No	                |No	                |"via GPIO USB Mic or USB Sound Card"
-|SPI	        |Yes	            | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               |Yes                |
-|I2C	        |Yes	            | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               |Yes                |
+|Ethernet	    | No                |Gigabit(USB 2.0)	| No                | No                |10/100M	        | No                |10/100M	        | No                |Yes                |
+|SATA Ports	    | No                | No                | No                | No                | No                | No                | No                | No                |No                 |
+|HDMI port	    | Yes               | Yes               |Yes mini	        |Yes mini	        | Yes               |Yes mini	        | Yes               | Yes               |Yes                |
+|Analog Vid Out |On Audio Jack	    |On Audio Jack	    |Yes(unpop pin)	    |Yes(unpop pin)	    |On Audio Jack	    |Yes(unpop pin)	    |On Audio Jack	    |On Audio Jack	    |Yes Composite video|
+|Analog Aud Out |3.5mm              |3.5mm	            |HDMI audio	        |HDMI audio	        |3.5mm	            |HDMI audio	        |3.5mm	            |3.5mm	            |3.5mm              |
+|Analog Aud In  | No                | No                | No                | No                | No                | No                | No                | No                |"via GPIO USB Mic or USB Sound Card"
+|SPI	        | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               |Yes                |
+|I2C	        | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               | Yes               |Yes                |
 |GPIO	        |Yes 40-pin	        | Yes 40-pin	    | Yes 40-pin	    | Yes 40-pin	    | Yes 40-pin	    | Yes 40-pin	    | Yes               | Yes               |26-pins            |
-|LCD Panel	    |Yes	            | Yes               |No	                |No	                | Yes               |No	                | Yes               | Yes               |Yes DSI            |
-|Camera	        |Yes	            | Yes               | Yes               | Yes               | Yes               |Yes:camera connectr| Yes               | Yes               |Yes DSI            |
-|SD/MMC	        |Yes microSD	    |Yes microSD	    |Yes microSD	    |Yes microSD	    |Yes microSD	    |Yes microSD	    |Yes microSD	    |Yes microSD	    |SD SDHC SDXC up to 2TB
-|Serial	        |-	                |- RX/TX UART	    | -                 | -                 | -                 | -                 | -                 | -                 |"- Through Expansion Connector	| needs level shifting"
+|LCD Panel	    | Yes               | Yes               | No                | No                | Yes               | No                | Yes               | Yes               |Yes DSI            |
+|Camera	        | Yes               | Yes               | Yes               | Yes               | Yes               |Yes:camera connectr| Yes               | Yes               |Yes DSI            |
+|SD/MMC	        |Yes microSD        | Yes microSD       | Yes microSD       | Yes microSD       | Yes microSD       | Yes microSD       | Yes microSD       | Yes microSD       |SD SDHC SDXC up to 2TB
+|Serial	        |                   | RX/TX UART	    | -                 | -                 | -                 | -                 | -                 | -                 |"- Through Expansion Connector	| needs level shifting"
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
-|Wi-Fi	        |802.11 b/g/n/ac	|802.11 b/g/n/ac	|Yes 802.11n	    |Yes 802.11n	    |Yes 802.11n	    |No	                |No	                |No	                |No                 |
-|Bluetooth®	    |"Yes 4.2	        | BLE"	|"Yes 4.2	| BLE"	|Yes 4.1	|Yes 4.1	        |Yes 4.1 LE	        |No	                |No	                |No	                |No                 |
+|Wi-Fi	        |802.11 b/g/n/ac	|802.11 b/g/n/ac	|Yes 802.11n	    |Yes 802.11n	    |Yes 802.11n	    | No                | No                | No                |No                 |
+|Bluetooth®	    |"Yes 4.2	        | BLE"	|"Yes 4.2	| BLE"	|Yes 4.1	|Yes 4.1	        |Yes 4.1 LE	        | No                | No                | No                |No                 |
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
 |Height	        |2.55 in (65 mm)	|3.37 in (85.6 mm)	|1.18 in (30 mm)	|1.18 in (30 mm)	|3.37 in (85.6 mm)	|1.18 in (30 mm)	|3.37 in (85.6 mm)	|2.55 in (65 mm)	|2.12 in (53.98 mm) |
 |Width	        |2.20 in (56 mm)	|2.22 in (56.5 mm)	|2.55 in (65 mm)	|2.55 in (65 mm)	|2.22 in (56.5 mm)	|2.55 in (65 mm)	|2.22 in (56.5 mm)	|2.22 in (56.5 mm)	|3.37 in (85.6 mm)  |
@@ -55,4 +55,4 @@ Description
 |---------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
 |Power ratings	|	                |1.13 A @5V	        |180 mA	            |180 mA	            |1.34 A @5V	        |160 mA	            |800 mA	            |200 mA	            |700 mA @5V         |
 |Power sources	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO	|microUSB or GPIO   |
-|POE	        |No	                |- with PoE Hat	    |No	                |No	                |No	                |No	                |No	                |No	                |No                 |
+|POE	        | No                |- with PoE Hat	    | No                | No                | No                | No                | No                | No                |No                 |
