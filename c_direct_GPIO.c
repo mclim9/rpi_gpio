@@ -4,6 +4,7 @@
 //  15-January-2012
 //  Dom and Gert
 //  Revised: 15-Feb-2013
+// http://hertaville.com/introduction-to-accessing-the-raspberry-pis-gpio-in-c.html
 
 // Access from ARM Running Linux
 #define BCM2708_PERI_BASE        0x20000000     // RPi1:   0x20000000
