@@ -4,6 +4,9 @@
 //      wget https://unicorn.drogon.net/wiringpi-2.46-1.deb
 //      sudo dpkg -i wiringpi-2.46-1.deb
 //
+// gcc -o c_wiringpi c_wiringpi.c -lwiringPi
+// ./c_wiringpi
+//
 #include <wiringPi.h>
 
 #include <stdio.h>
