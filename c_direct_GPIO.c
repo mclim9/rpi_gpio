@@ -7,6 +7,10 @@
 // http://hertaville.com/introduction-to-accessing-the-raspberry-pis-gpio-in-c.html
 
 // Access from ARM Running Linux
+//
+// gcc -o c_direct_GPIO c_direct_GPIO.c
+// ./c_direct_GPIO
+//
 #define BCM2708_PERI_BASE        0x20000000     // RPi1:   0x20000000
                                                 // RPi2/3: 0x3F000000
 #define GPIO_BASE                (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */
