@@ -7,8 +7,16 @@
 echo "4" > /sys/class/gpio/export
 echo "out" > /sys/class/gpio/gpio4/direction
 
-for value in {100000..0..1}
+repi=100000
+start=$(date +%s%3N)
+for value in {$repi..0..1}
 do
         echo 1 > /sys/class/gpio/gpio4/value
         echo 0 > /sys/class/gpio/gpio4/value
 done
+
+end=$(date +%s%3N)
+
+runtime=$(($end-$start))
+freq=$(($repi/$runtime))
+echo "Freq:$freq kHz Time:$runtime mSec"
